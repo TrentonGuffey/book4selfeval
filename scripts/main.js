@@ -19,8 +19,10 @@ const applicationHTML = `
 
     <article class="assignments">
         <h2>Pairings</h2>
+        ${Pairings()}
     </article>
 `
 
 mainContainer.innerHTML = applicationHTML
+
 
